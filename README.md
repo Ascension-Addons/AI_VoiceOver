@@ -1,3 +1,3 @@
-# Addon Name
+# AI VoiceOver
 
-This is the repository for <Addon Name>. Modified for Ascension.gg. 
+This is the repository for AI_VoiceOver. Modified for Ascension.gg.
