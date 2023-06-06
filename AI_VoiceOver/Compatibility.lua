@@ -76,8 +76,8 @@ function Utils:GetIDFromGUID(guid)
         return
     end
     local type = assert(self:GetGUIDType(guid), format([[Failed to determine the type of GUID "%s"]], guid))
-    assert(Enums.GUID:GetName(type), format([[Unknown GUID type %d]], type))
-    assert(Enums.GUID:CanHaveID(type), format([[GUID "%s" does not contain ID]], guid))
+    -- assert(Enums.GUID:GetName(type), format([[Unknown GUID type %d]], type))
+    -- assert(Enums.GUID:CanHaveID(type), format([[GUID "%s" does not contain ID]], guid))
     return tonumber(guid:sub(7, 7 + 6 - 1), 16)
 end
 
